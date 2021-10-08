@@ -7,7 +7,7 @@
 .box{
   height: 3.7vw;
   background-color: black;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
 }
 
 .white{
