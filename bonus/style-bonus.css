@@ -1,0 +1,19 @@
+
+.container-bonus{
+  height: 100vh;
+  max-height: 100%;
+}
+
+.box{
+  height: 3.7vw;
+  background-color: black;
+  border: 1px solid lightgray;
+}
+
+.white{
+  background-color: white;
+}
+
+.yellow{
+  background-color: yellow;
+}
