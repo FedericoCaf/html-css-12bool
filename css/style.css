@@ -1,7 +1,45 @@
 .box{
-  height: 100px;
-  width: 100px;
-  background-color: darkturquoise;
-  border: 1px solid white;
+  height: 40px;
+  /* width: 100px; */
+  background-color: #006CFA;
+  /* border: 1px solid white; */
+  margin: 1px;
   text-align: center;
+  color: white;
+  line-height: 40px;
+}
+
+.container-due{
+  margin-top: 10px;
+}
+
+h2{
+  margin: 10px 0;
+}
+
+.box-padding{
+  padding: 4px;
+}
+
+.red{
+  background-color: red;
+}
+
+.nesting{
+  background-color: #00E165;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+@media (min-width:50px){
+  .col-xs-12-none{
+    display: none;
+  }
+}
+
+@media (min-width:576px){
+  .col-xs-12-none{
+    display: inline-block;
+  }
 }
